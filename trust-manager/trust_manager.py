@@ -255,7 +255,7 @@ class Plugin:
         return {
             "trusted": "GREEN",
             "known": "YELLOW",
-            "unverified": "CYAN",
+            "unverified": "MAGENTA",
         }.get(level, "CYAN")
 
 
@@ -273,7 +273,7 @@ class Plugin:
             level_text = "○ unverified (default; not explicitly recorded)"
             print("Level:   " + self._color(level_text, self._level_color("unverified")
             ))
-            print(self._color("Note:    ", "CYAN", bright=True) + "none")
+            print(self._color("note:    ", "CYAN", bright=True) + "none")
             return
 
         level = entry["level"]
@@ -287,7 +287,7 @@ class Plugin:
             )
         )
         print(
-            self._color("Note:    ", "CYAN", bright=True)
+            self._color("note:    ", "CYAN", bright=True)
             + (entry.get("note") or "none")
         )
 
@@ -335,7 +335,7 @@ class Plugin:
             if entry.get("note"):
                 print(
                     "             "
-                    + self._color("Note: ", "CYAN", bright=True)
+                    + self._color("note: ", "CYAN", bright=True)
                     + entry["note"]
                 )
 
@@ -522,7 +522,7 @@ Contact can be a full hash, a saved Trust Manager alias, or a name
 known to LXMF-CLI's local/in-memory contact data. The plugin does not
 initiate network lookups.
 """,
-            self.client.Fore.CYAN,
+            self.client.Fore.WHITE,
         )
 
 
