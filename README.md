@@ -19,3 +19,11 @@ A plugin for managing local contact trust levels, notes, and aliases.
 It allows users to classify contacts as trusted, known, or unverified, and maintain additional information about them.
 
 See the [Trust Manager README](trust-manager/README.md) for more information and usage instructions.
+
+### Note Taker
+
+A plugin for saving and managing messages as personal notes.
+
+It allows users to save messages from conversations, browse saved notes, add comments, and delete notes or individual comments.
+
+See the [Note Taker README](note-taker/README.md) for more information and usage instructions.
