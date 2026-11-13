@@ -1,3 +1,4 @@
+
 # LXMF-CLI Plugin Pack
 
 A collection of plugins for [LXMF-CLI](https://github.com/fr33n0w/lxmf-cli).
@@ -27,3 +28,11 @@ A plugin for saving and managing messages as personal notes.
 It allows users to save messages from conversations, browse saved notes, add comments, and delete notes or individual comments.
 
 See the [Note Taker README](note-taker/README.md) for more information and usage instructions.
+
+### Kaomoji
+
+A lightweight plugin for browsing and sending Kaomoji using simple text shortcodes.
+
+It automatically replaces Kaomoji shortcodes with their corresponding Unicode characters before messages are sent.
+
+See the [Kaomoji README](kamoji/README.md) for more information and usage instructions.
